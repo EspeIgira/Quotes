@@ -1,7 +1,10 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
-By creating different quotes able to add any quote, also able to vote by dislike or like(downvote,upvote).
+
+
+## Description
+{By creating different quotes able to add any quote, also able to vote by dislike or like(downvote,upvote).}, {Created 29th January 2019}
 
 ## Development server
 
