@@ -1,0 +1,17 @@
+
+<div class="containern">
+
+  <p>This quote will be voted in {{quote.completeDate|dateCount}} days</p>
+  <p>Author:{{quote.author}}</p>
+  <p>upVote:{{quote.upVote}}</p>
+  <p>downVote:{{quote.downVote}}</p>
+
+  <button  class="btn btn-success" (click) = 'upVote()' click> UpVote </button><br><br>
+  <button class="btn btn-success" (click)='downVote()' click> downVote </button><br><br>
+  <button class="btn btn-danger" (click) = 'quoteDelete(true)'>Delete this quote </button><br><br>
+</div>
+
+
+
+
+

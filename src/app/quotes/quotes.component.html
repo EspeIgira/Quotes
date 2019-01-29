@@ -1,0 +1,40 @@
+<div class="textQ">
+  
+  <h3>"Quotes"
+    <p>
+        Welcome to Wise Quotes!
+      </p>
+      <p>-----------------------------------</p>
+      <img src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/06/new-beginnings-life-quote.jpg" height=500>
+  </h3>
+ 
+</div>
+
+<hr>
+<div class="container">
+    
+    <div class="row" *ngFor="let quote of quotes;let i = 'index'">
+        <div class="row">
+            <h5 id="{{i}}" appStrikethrough>{{quote.name}} </h5>
+            <h5 id="{{i}}" appStrikethrough>{{quote.author}}--due on {{quote.completeDate|date|uppercase}}</h5>
+            <button class="btn btn-primary" (click)='toogleDetails(i)'>Vote</button>
+        </div>
+              
+        <div class="row" *ngIf="quote.showDescription">
+            <app-quotes-details  [quote]='quote' (isComplete)= 'deleteQuotes($event,i)'></app-quotes-details>
+         </div>
+          
+    </div>
+      
+
+<br><br>
+<div class="textQ"><p *ngIf='quotes.length > 5'>Your Quotes are Voted terribly or inspirationaly !</p></div>
+
+
+
+</div>
+<hr>
+<div class="row">
+        <app-quotes-form (addQuotes)="addNewQuotes($event)"></app-quotes-form>
+</div>  
+  

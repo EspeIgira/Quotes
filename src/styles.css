@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+/*
+.voted1{
+    margin-right:0px;
+    margin-left:500px;
+    margin-top:-39px;
+}
+.voted2{
+    margin-left:400px;
+    margin-top:-20px;
+}*/
+
+.textQ{
+    text-align: center;
+}
+.choose{
+    margin-left:20px;
+}
+.containern{
+    margin-left:50px; 
+    margin-right:300px;
+    margin-top:-10px;
+}
+p{
+ color:darkblue;
+} 
+button{
+    color:green;
+}
+.delete{
+    
+    margin-left:50px; 
+    margin-top:-2px;
+    margin-bottom:-20px;
+}
+.process{
+   
+    margin-right:200px;
+    margin-left:500px;
+    margin-top:-305px;
+   
+}
+.container-fluid{
+    margin-left: 200px;
+}
+.pform{
+    margin-left: 200px;
+
+}
+
+.btnbtn-successbtn-lg{
+    Background-color:blue;
+    color:white;
+}
+
+
