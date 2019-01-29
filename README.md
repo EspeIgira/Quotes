@@ -1,6 +1,7 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+By creating different quotes.
 
 ## Development server
 
