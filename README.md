@@ -4,7 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Description
+
 {By creating different quotes able to add any quote, also able to vote by dislike or like(downvote,upvote).}, {Created 29th January 2019}
+
+## Authors
+
+* **EspeIgira** - *Initial work* - [EspeIgira](https://github.com/EspeIgira/)
+
 
 ## Development server
 
