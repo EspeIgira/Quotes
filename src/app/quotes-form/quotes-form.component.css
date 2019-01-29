@@ -1,12 +1,13 @@
 .container-fluid{
-   background-color:lightgray;
+   
    margin-left:500px;
    background-image: url(https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/06/new-beginnings-life-quote.jpg);
-   
+   background-repeat: no-repeat;
   
 }
 .pform{
-    margin-left: 600px;
+    margin-left: 10px;
+    margin-right:100px;
 }
 .formn{
     text-align: center;
@@ -14,3 +15,4 @@
 .formm{
     text-align: center;
 }
+
